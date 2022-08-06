@@ -1,0 +1,16 @@
+---
+# This is an example playbook to execute Ansible tests.
+
+- name: Verify
+  hosts: all
+  become: no
+  gather_facts: no
+
+  tasks:
+    - name: check code version
+      ansible.builtin.command:
+        cmd: "code --version --no-sandbox --user-data-dir=/tmp"
+      register: code_version
+
+    - name: check returned version
+      debug: var=code_version.stdout
