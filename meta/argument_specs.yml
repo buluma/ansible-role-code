@@ -1,7 +1,10 @@
 ---
-
+#
+# Ansible managed
+#
 argument_specs:
   main:
-    short_description: Install and configure Visual Studio on your system.
-    description: Install and configure Visual Studio on your system.
+    short_description: Install visual studio code on your system.
+    description: >
+      Install visual studio code on your system.
     author: Michael Buluma
