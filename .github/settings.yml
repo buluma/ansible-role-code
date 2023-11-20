@@ -5,4 +5,4 @@
 repository:
   description: Install visual studio code on your system.
   homepage: https://buluma.github.io/
-  topics: code, ansible, molecule, tox, playbook, hacktoberfest
+  topics: code, ansible, molecule, tox, playbook
