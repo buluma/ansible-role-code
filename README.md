@@ -1,10 +1,10 @@
-# [Ansible role code](#code)
+# Ansible role [code](https://galaxy.ansible.com/ui/standalone/roles/buluma/code/documentation)
 
 Install visual studio code on your system.
 
-|GitHub|Version|Issues|Pull Requests|
-|------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-code/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-code/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-code.svg)](https://github.com/buluma/ansible-role-code/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-code.svg)](https://github.com/buluma/ansible-role-code/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-code.svg)](https://github.com/buluma/ansible-role-code/pulls/)|
+|GitHub|Version|Issues|Pull Requests|Downloads|
+|------|-------|------|-------------|---------|
+|[![github](https://github.com/buluma/ansible-role-code/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-code/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-code.svg)](https://github.com/buluma/ansible-role-code/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-code.svg)](https://github.com/buluma/ansible-role-code/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-code.svg)](https://github.com/buluma/ansible-role-code/pulls/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/code)](https://galaxy.ansible.com/ui/standalone/roles/buluma/code/documentation)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -90,9 +90,7 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 ## [Author Information](#author-information)
 
-[buluma](https://buluma.github.io/)
+[Shadow Walker](https://buluma.github.io/)
 
-
-### [Special Thanks](#special-thanks)
 
 Template inspired by [Robert de Bock](https://github.com/robertdebock)
