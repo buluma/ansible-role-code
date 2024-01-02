@@ -16,12 +16,12 @@ galaxy_info:
         - all
     - name: Fedora
       versions:
-        - "35"
-        - "36"
+        - all
     - name: Ubuntu
       versions:
         - focal
         - bionic
+        - jammy
 
   galaxy_tags:
     - code
