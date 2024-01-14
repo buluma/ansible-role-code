@@ -58,11 +58,9 @@ jobs:
           - image: "enterpriselinux"
             tag: "latest"
           - image: "fedora-systemd"
-            tag: "38"
-          - image: "fedora-systemd"
             tag: "latest"
           - image: "fedora-systemd"
-            tag: "rawhide"
+            tag: "38"
           - image: "docker-ubuntu-systemd"
             tag: "focal"
           - image: "docker-ubuntu-systemd"
@@ -75,7 +73,7 @@ jobs:
         with:
           path: "${{ github.repository }}"
       - name: Running Molecule Test
-        uses: buluma/molecule-action@v6.0.0
+        uses: buluma/molecule-action@v6.0.1
         with:
           image: ${{ matrix.config.image }}
           tag: ${{ matrix.config.tag }}
