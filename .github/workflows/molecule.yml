@@ -52,8 +52,6 @@ jobs:
           - image: "debian-systemd"
             tag: "bullseye"
           - image: "enterpriselinux"
-            tag: "7"
-          - image: "enterpriselinux"
             tag: "8"
           - image: "enterpriselinux"
             tag: "latest"
@@ -63,8 +61,6 @@ jobs:
             tag: "38"
           - image: "docker-ubuntu-systemd"
             tag: "focal"
-          - image: "docker-ubuntu-systemd"
-            tag: "bionic"
           - image: "docker-ubuntu-systemd"
             tag: "latest"
     steps:
