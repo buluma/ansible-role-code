@@ -3,13 +3,13 @@
 
 - name: Verify
   hosts: all
-  become: no
-  gather_facts: no
+  become: false
+  gather_facts: false
 
   tasks:
     - name: check code version
       ansible.builtin.command:
-        cmd: "code --version --no-sandbox --user-data-dir=/tmp"
+        cmd: "code --version --false-sandbox --user-data-dir=/tmp"
       register: code_version
 
     - name: check returned version
