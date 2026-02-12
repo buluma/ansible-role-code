@@ -1,30 +1,23 @@
----
 galaxy_info:
   author: buluma
   role_name: code
   description: Install visual studio code on your system.
   license: Apache-2.0
   company: none
-  min_ansible_version: "2.12"
-
+  min_ansible_version: '2.12'
   platforms:
-    - name: Debian
-      versions:
-        - all
-    - name: EL
-      versions:
-        - all
-    - name: Fedora
-      versions:
-        - "39"
-        - "38"
-    - name: Ubuntu
-      versions:
-        - focal
-        - bionic
-        - jammy
-
+  - name: Debian
+    versions:
+    - all
+  - name: EL
+    versions:
+    - all
+  - name: Fedora
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
   galaxy_tags:
-    - code
-
+  - code
 dependencies: []
