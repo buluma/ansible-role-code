@@ -12,4 +12,4 @@
   roles:
     - role: buluma.ca_certificates
     - role: buluma.microsoft_repository_keys
-    - role: ansible-role-code
+    - role: buluma.code
