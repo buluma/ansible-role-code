@@ -1,3 +1,4 @@
+---
 galaxy_info:
   author: buluma
   role_name: code
@@ -6,9 +7,9 @@ galaxy_info:
   company: none
   min_ansible_version: '2.12'
   platforms:
-  - name: Debian
-    versions:
-    - all
+    - name: Debian
+      versions:
+        - all
   - name: EL
     versions:
     - all
@@ -19,5 +20,5 @@ galaxy_info:
     versions:
     - all
   galaxy_tags:
-  - code
+    - code
 dependencies: []
