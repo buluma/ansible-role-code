@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Bump actions/checkout from 4 to 6 [\#19](https://github.com/buluma/ansible-role-code/pull/19) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump dependabot/fetch-metadata from 1 to 2 [\#16](https://github.com/buluma/ansible-role-code/pull/16) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/dependabot-auto-merge-action from 2.1.1 to 2.1.2 [\#15](https://github.com/buluma/ansible-role-code/pull/15) ([dependabot[bot]](https://github.com/apps/dependabot))
 
