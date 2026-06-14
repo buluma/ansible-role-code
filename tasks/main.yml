@@ -13,7 +13,7 @@
     gpgcheck: true
     gpgkey: "https://packages.microsoft.com/keys/microsoft.asc"
   when:
-    - ansible_facts.pkg_mgr in [ "yum", "dnf" ]
+    - ansible_facts.pkg_mgr in [ "yum", "dnf", "dnf5" ]
 
 - name: Place apt repository.
   ansible.builtin.apt_repository:
