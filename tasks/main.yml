@@ -13,13 +13,13 @@
     gpgcheck: true
     gpgkey: "https://packages.microsoft.com/keys/microsoft.asc"
   when:
-    - ansible_pkg_mgr in [ "yum", "dnf" ]
+    - ansible_facts.pkg_mgr in [ "yum", "dnf" ]
 
 - name: Place apt repository.
   ansible.builtin.apt_repository:
     repo: "deb https://packages.microsoft.com/repos/code stable main"
   when:
-    - ansible_pkg_mgr in [ "apt" ]
+    - ansible_facts.pkg_mgr in [ "apt" ]
 
 - name: Install visual studio code.
   ansible.builtin.package:
