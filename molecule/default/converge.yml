@@ -18,5 +18,4 @@
       when: ansible_facts['os_family'] == 'Debian'
 
   roles:
-    - role: buluma.ca_certificates
     - role: buluma.code
