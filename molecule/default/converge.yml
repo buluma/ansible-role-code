@@ -10,8 +10,13 @@
         update_cache: true
         cache_valid_time: 600
       when: ansible_facts['os_family'] == 'Debian'
+    - name: Add Microsoft apt key
+      ansible.builtin.get_url:
+        url: https://packages.microsoft.com/keys/microsoft.asc
+        dest: /etc/apt/trusted.gpg.d/microsoft.asc
+        mode: "0644"
+      when: ansible_facts['os_family'] == 'Debian'
 
   roles:
     - role: buluma.ca_certificates
-    - role: buluma.microsoft_repository_keys
     - role: buluma.code
