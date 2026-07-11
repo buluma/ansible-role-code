@@ -20,16 +20,13 @@
 
 [Full Changelog](https://github.com/buluma/ansible-role-code/compare/0.3.0...24.2.26)
 
-**Merged pull requests:**
-
-- Bump release-drafter/release-drafter from 5 to 6 [\#14](https://github.com/buluma/ansible-role-code/pull/14) ([dependabot[bot]](https://github.com/apps/dependabot))
-
 ## [0.3.0](https://github.com/buluma/ansible-role-code/tree/0.3.0) (2024-01-19)
 
 [Full Changelog](https://github.com/buluma/ansible-role-code/compare/0.2.0...0.3.0)
 
 **Merged pull requests:**
 
+- Bump release-drafter/release-drafter from 5 to 6 [\#14](https://github.com/buluma/ansible-role-code/pull/14) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/molecule-action from 6.0.2 to 6.0.3 [\#13](https://github.com/buluma/ansible-role-code/pull/13) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [0.2.0](https://github.com/buluma/ansible-role-code/tree/0.2.0) (2024-01-02)
